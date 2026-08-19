@@ -45,7 +45,7 @@ What is built and tested:
 | Counterbalancing | Latin square across reviewers, condition orthogonal to both running order and document |
 | Analysis | Fleiss' κ, median and IQR, Wilson intervals, and data-quality warnings that fire *above* the findings |
 
-**149 Python tests and 24 frontend tests, none requiring an API key or network.**
+**152 Python tests and 24 frontend tests, none requiring an API key or network.**
 The SuperDocs client runs against an injected transport, so the branches that
 would otherwise need a live account — endpoint fallback, budget refusal, job
 failure, cold-start timeout — are all covered offline.
